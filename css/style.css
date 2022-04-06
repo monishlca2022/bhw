@@ -1,0 +1,833 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #060606;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section-title h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    color: #090909;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+/* Banner Start */
+section.banner {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+section.banner img {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+section.banner header.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 999;
+}
+
+/* header-top */
+section.banner header.header .header-top {
+    padding: 16px 0;
+    background-color: #1d1d1d;
+}
+
+section.banner header.header .header-top .d-flex {
+    justify-content: space-between;
+}
+
+section.banner header.header .header-top .phone-block p {
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+section.banner header.header .header-top .phone-block a {
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+section.banner header.header .header-top .phone-block a:hover {
+    color: #eee;
+}
+
+section.banner header.header .header-top .shop-block a {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+section.banner header.header .header-top .shop-block a:hover {
+    color: #eee;
+}
+
+section.banner header.header .header-top .shop-block a.cart {
+    position: relative;
+}
+
+section.banner header.header .header-top .shop-block a.cart .qty {
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+/* header-top */
+/* header-bottom */
+section.banner header.header .header-bottom {
+    background-color: #475369;
+    background-color: rgba(71, 83, 105, 0.8);
+    padding: 28px 0;
+    margin: 0;
+}
+
+section.banner header.header .header-bottom .d-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.banner header.header .header-bottom .logo-block {
+    padding: 0;
+    margin: 0;
+}
+
+section.banner header.header .header-bottom .rt-block {
+    padding: 0;
+    margin: 0;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top {
+    padding: 0 0 12px 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top .d-flex {
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top .search-block {
+    position: relative;
+    width: 40%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top .search-block .form-control {
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top .search-block .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top .search-block .form-control:focus {
+    border: 1px solid #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top .search-block .btn {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top nav.primary-nav {
+    padding: 0;
+    margin: 0;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top nav.primary-nav .d-flex {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top nav.primary-nav ul li a {
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-top nav.primary-nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-bottom {
+    padding: 0;
+    margin: 0;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-bottom nav.secondery-nav .d-flex {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-bottom nav.secondery-nav ul li a {
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+section.banner header.header .header-bottom .rt-block .rt-block-bottom nav.secondery-nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* header-bottom */
+/* Header */
+
+/* Banner Hero-block */
+
+section.banner .hero-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+section.banner .hero-block .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.banner .hero-block .hero-text h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 90px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-shadow: 0px 12px 8px rgba(0, 0, 0, 0.27);
+}
+
+
+section.banner .hero-block .hero-text p {
+    font-family: inherit;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+    padding: 0 20%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+section.banner .hero-block .hero-text a.btn {
+    font-family: inherit;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 0;
+    background-color: #000;
+    padding: 30px 120px;
+    border-radius: 5px;
+}
+
+/* Banner End */
+/*All Marbles Section*/
+section.all-marbles-section {
+    padding: 80px 0;
+    margin: 0;
+}
+
+section.all-marbles-section .card {
+    padding: 0;
+    margin: 0 0 30px 0;
+    border: none;
+}
+
+section.all-marbles-section .card .img-block .img-fluid {
+    width: 100%;
+    object-fit: cover;
+}
+
+section.all-marbles-section .card .text-block {
+    text-align: center;
+    margin-top: 10px;
+}
+
+section.all-marbles-section .card .text-block h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #090909;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* All Marbles Section */
+/* About Section */
+section.about-section {
+    background-color: #fcfbfb;
+    padding: 80px 0;
+    margin: 0;
+}
+
+section.about-section .d-flex {
+    justify-content: space-between;
+}
+
+section.about-section .text-block {
+    padding: 0;
+    margin: 0;
+}
+
+section.about-section .text-block h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: #090909;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+section.about-section .text-block p {
+    font-family: inherit;
+    font-size: 16px;
+    color: #090909;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+section.about-section .text-block a.btn {
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 500;
+    background-color: #000;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+section.about-section .img-block {
+    position: relative;
+    background-image: url("../images/about-section-top-pattern.jpg"), url("../images/about-section-bottom-pattern.jpg");
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 482px;
+}
+
+section.about-section .img-block img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    z-index: 20;
+    box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.08);
+    border-width: 1px;
+    border-color: rgb(217, 199, 177);
+    border-style: solid;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+section.about-section .img-block img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    z-index: 10;
+    box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.08);
+    border-width: 1px;
+    border-color: rgb(217, 199, 177);
+    border-style: solid;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+section.about-section .img-block:hover img:nth-child(1) {
+    z-index: 10;
+    left: 0;
+}
+
+section.about-section .img-block:hover img:nth-child(2) {
+    z-index: 20;
+    right: 0;
+}
+
+/*Why You Should Work With Us START*/
+section.work-with-us-section {
+    background-color: #fff;
+    padding: 80px 0;
+    margin: 0;
+}
+
+section.work-with-us-section .row {
+    padding: 0;
+    margin: 0;
+}
+
+
+section.work-with-us-section .row .card {
+    border: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+section.work-with-us-section .row .card .d-flex {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section.work-with-us-section .row .card .icon-block {
+    width: 54px;
+    padding: 0;
+    margin: 0;
+}
+
+
+section.work-with-us-section .row .card .text-block {
+    padding: 0 20px;
+    margin: 0;
+}
+
+section.work-with-us-section .row .card .text-block h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    color: #0b0b0b;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 27px;
+}
+
+section.work-with-us-section .row .card .text-block p {
+    font-family: inherit;
+    font-size: 16px;
+    color: #0b0b0b;
+    line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/*Why You Should Work With Us END*/
+
+/*Inspirational Gallery START*/
+
+section.gallery-section {
+    background-color: #fcfbfb;
+    padding: 80px 0;
+    margin: 0;
+}
+
+section.gallery-section .gallery-images-block {
+    display: grid;
+    /*    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(5, 1fr);
+}
+
+section.gallery-section .gallery-images-block .img-block {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    cursor: zoom-in;
+}
+
+section.gallery-section .gallery-images-block .img-block .icon-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+
+section.gallery-section .gallery-images-block .img-block .icon-block img {
+    opacity: 0.5;
+}
+
+section.gallery-section .gallery-images-block .img-block:hover .icon-block {
+    opacity: 0;
+    /*    display: none;*/
+    visibility: hidden;
+}
+
+section.gallery-section .button-block {
+    text-align: center;
+}
+
+section.gallery-section .button-block button.btn {
+    font-family: inherit;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 12px 30px;
+    margin-top: 30px;
+
+}
+
+/*Inspirational Gallery END*/
+/* Clients Logo Section START */
+section.clients-logos-section {
+    background-color: #e8e7e7;
+    padding: 100px 0;
+}
+
+section.clients-logos-section .clients-logos-block {
+    padding: 0;
+    margin: 0;
+}
+
+section.clients-logos-section .clients-logos-block .clint-logo-block {
+    padding: 0;
+    margin: 0;
+}
+
+
+section.clients-logos-section .slick-dots {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+section.clients-logos-section .slick-dots li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    margin: 0 5px;
+}
+
+section.clients-logos-section .slick-dots li button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 0;
+    color: transparent;
+}
+
+section.clients-logos-section .slick-dots .slick-active {
+    background-color: #e9592f;
+}
+
+/* Our Latest Project Section START */
+section.our-latest-project-section {
+    background-color: #fff;
+    padding: 80px 0;
+    margin: 0;
+}
+
+section.our-latest-project-section .img-block {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+section.our-latest-project-section .img-block img {
+    padding: 0;
+    margin: 0;
+}
+
+section.our-latest-project-section .img-block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+section.our-latest-project-section .img-block .button-block {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.our-latest-project-section .img-block .button-block a.btn {
+    opacity: 0;
+    visibility: hidden;
+    font-family: inherit;
+    font-size: 16px;
+    color: #060606;
+    line-height: 1.3;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out 0.2s;
+}
+
+section.our-latest-project-section .img-block:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+section.our-latest-project-section .img-block:hover .button-block a.btn {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Our Latest Project Section END */
+
+/* Flooring and  marble Section START */
+
+section.flooring-marble-section{
+    background-color: #fcfbfb;
+    padding: 80px 0;
+    margin: 0;
+}
+
+section.flooring-marble-section .frequently-asked-questions-block{
+    padding: 0;
+    margin: 0;
+}
+
+section.flooring-marble-section .frequently-asked-questions-block p{
+    font-family: inherit;
+    font-size: 20px;
+    color: 060606;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+section.flooring-marble-section .frequently-asked-questions-block h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    color: #090909;
+    line-height: 1.1;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block{
+  padding: 0;
+  margin: 0;  
+}
+
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-item{
+    background-color: #fff;
+    box-shadow: 0px 2px 65px 0px rgba(0, 0, 0, 0.03);
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-button::after{
+    background-image: url("../images/plus-icon.svg");
+}
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-button:not(.collapsed)::after{
+     background-image: url("../images/minus-icon.svg");
+}
+
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-item .accordion-button{
+    font-family: inherit;
+    font-size: 18px;
+    color: #060606;
+    font-weight: 500;
+    line-height: 1.3;
+    background-color: #fff; 
+    padding: 20px 30px;
+}
+
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-body{
+    font-family: inherit;
+    font-size: 16px;
+    color: #060606;
+    font-weight: 300;
+    line-height: 1.3;
+    padding: 30px 30px;
+}
+
+section.flooring-marble-section .get-a-free-quote-block{
+    background-color: #fff;
+    padding: 62px 30px;
+    margin: 0;
+}
+
+section.flooring-marble-section .get-a-free-quote-block p{
+    font-family: inherit;
+    font-size: 20px;
+    color: 060606;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+}
+
+section.flooring-marble-section .get-a-free-quote-block h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    color: #090909;
+    line-height: 1.1;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+section.flooring-marble-section .get-a-free-quote-block .form-control{
+    font-family: inherit;
+    font-size: 16px;
+    color: #060606;
+    line-height: 1.1;
+    font-weight: 400; 
+    border: 1px solid transparent;
+    background-color: #f7f6f6;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+section.flooring-marble-section .get-a-free-quote-block .form-control::placeholder{
+    font-family: inherit;
+    font-size: 16px;
+    color: #969494;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+section.flooring-marble-section .get-a-free-quote-block .form-control:focus{
+    border: 1px solid #000;
+    box-shadow: none;
+}
+
+section.flooring-marble-section .get-a-free-quote-block textarea.form-control {
+    height: 100px;
+    resize: none;
+}
+
+section.flooring-marble-section .get-a-free-quote-block input.btn{
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 500; 
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 15px;
+}
+/* Flooring and  marble Section END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Clients Logo Section END */
